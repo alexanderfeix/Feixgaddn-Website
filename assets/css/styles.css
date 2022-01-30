@@ -293,6 +293,9 @@ img{
 .home__description{
     margin-bottom: var(--mb-2);
 }
+.home__description-list{
+    margin-bottom: var(--mb-1);
+}
 
 /*==================== BUTTONS ====================*/
 .button{
@@ -329,6 +332,10 @@ img{
 .button--link:hover{
     background-color: transparent;
     color: var(--first-color-alt);
+}
+.button a{
+    background-color: transparent;
+    color: var(--first-color);
 }
 
 /*==================== SERVICES ====================*/
