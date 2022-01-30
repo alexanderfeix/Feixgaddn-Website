@@ -21,7 +21,7 @@
         <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">CS & FS Quiz</a>
-                <div class="nav__menu" id="nav_menu">
+                <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
                             <a href="#home" class="nav__link">
@@ -47,6 +47,8 @@
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
                 <div class="nav__btns">
+                    <!--Theme change-->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -58,66 +60,96 @@
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__data">
+                            <h1 class="home__title">CS & FS Quiz</h1>
+                            <h3 class="home__subtitle">Train your skills now!</h3>
+                            <p class="home__description">This quiz is built for computer science students and formula student interested people.</p>
+                            <a href="#training" class="button button--flex"><i class="uil uil-graduation-cap button__icon"></i> Training</a>
+                            <a href="#competitive" class="button button--flex"><i class="uil uil-trophy button__icon"></i> Competitive</a>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-
-        
-            </section>
-
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
-
-
-            </section>
-
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
-
-
-            </section>
-
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-
-            </section>
-
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-
-            </section>
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-
-
+            <!--==================== TRAINING ====================-->
+            <section class="services section" id="training">
+                <h2 class="section__title">Training</h2>
+                <span class="section__subtitle">Improve your skills!</span>
+                <div class="services__container container grid">
+                   <!--==================== TRAINING1 ====================-->     
+                   <div class="services__content">
+                       <div>
+                            <i class="uil uil-analysis services__icon"></i>
+                            <h3 class="services__title">Graph <br> Theory</h3>
+                       </div>
+                       <span class="button button--flex button--small button--link services__button">
+                           Get started!
+                           <i class="uil uil-arrow-right button__icon"></i>  
+                       </span>
+                   </div>
+                    <!--==================== TRAINING2 ====================-->     
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-no-entry services__icon"></i>
+                            <h3 class="services__title">Formula Student <br> Rules</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            Get started!
+                            <i class="uil uil-arrow-right button__icon"></i>  
+                        </span>
+                    </div>
+                    <!--==================== TRAINING3 ====================-->     
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-brackets-curly services__icon"></i>
+                            <h3 class="services__title">Coding <br> Java-Basics</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            Get started!
+                            <i class="uil uil-arrow-right button__icon"></i>  
+                        </span>
+                    </div>
+                    <!--==================== TRAINING4 ====================-->     
+                    <div class="services__content">
+                        <div>
+                             <i class="uil uil-chart-pie services__icon"></i>
+                             <h3 class="services__title">Software <br> Engineering 1</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            Get started!
+                            <i class="uil uil-arrow-right button__icon"></i>  
+                        </span>
+                    </div>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-
-            
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">CS & FS Quiz</h1>
+                        <span class="footer__subtitle">computer science & formula student</span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#training" class="footer__link">Training</a>
+                        </li>
+                        <li>
+                            <a href="#competitive" class="footer__link">Competitive</a>
+                        </li>
+                    </ul>
+                    <div class="footer__socials">
+                        <a href="#" target="_blank" class="footer__social"><i class="uil uil-github-alt"></i></a>
+                        <a href="#" target="_blank" class="footer__social"><i class="uil uil-twitter-alt"></i></a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Alexander Feix. All rights reserved</p>
+            </div>
         </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
